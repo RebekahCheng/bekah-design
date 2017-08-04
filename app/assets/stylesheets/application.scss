@@ -1,1 +1,9 @@
-@import 'spectre.css'
+// Graphical variables
+@import "config/variables";
+
+// External libraries
+@import 'spectre.css';
+
+// CSS
+@import "layout/index";
+@import "components/index";
