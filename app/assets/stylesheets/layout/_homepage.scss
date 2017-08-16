@@ -1,0 +1,15 @@
+.Aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Aligner-item {
+  max-width: 50%;
+  margin-top: 12em;
+}
+
+.Aligner-item--fixed {
+  flex: none;
+  max-width: 50%;
+}
