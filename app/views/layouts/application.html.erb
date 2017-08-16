@@ -14,7 +14,9 @@
   <body class="site">
       <%= render 'shared/navbar' %>
       <%= yield %>
-      <%= render 'shared/footer' %>
+      <% unless params[:action] == 'home' %>
+        <%= render 'shared/footer' %>
+      <% end %>
 
     <!-- Adobe Typekit -->
     <script src="https://use.typekit.net/sie1zvb.js"></script>
