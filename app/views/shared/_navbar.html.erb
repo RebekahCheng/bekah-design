@@ -1,11 +1,24 @@
-<div class="navbar">
+<div class="navbar navbar-fixed-top">
   <!-- Logo -->
-  <h2>bekah</h2>
+  <i class="fa fa-heart" id="logo-heart"></i>
 
   <!-- Right Navigation -->
   <div class="navbar-right hidden-xs hidden-sm">
 
-    <a href="" class="navbar-link">about</a>
-    <a href="" class="navbar-link">projects</a>
-    <a href="" class="navbar-link">instagram</a>
+    <a href="" class="navbar-item navbar-link">About</a>
+    <a href="" class="navbar-item navbar-link">Projects</a>
+    <a href="" class="navbar-item navbar-link">Instagram</a>
+  </div>
+
+  <!-- Dropdown appearing on mobile only -->
+  <div class="navbar-item hidden-md hidden-lg">
+    <div class="dropdown">
+      <i class="fa fa-caret-down" aria-hidden="true" data-toggle="dropdown"></i>
+      <ul class="dropdown-menu dropdown-menu-right navbar-dropdown-menu">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Instagram</a></li>
+      </ul>
+    </div>
+  </div>
 </div>

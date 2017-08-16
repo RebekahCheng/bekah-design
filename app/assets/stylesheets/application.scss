@@ -1,23 +1,13 @@
 // Graphical variables
-// @import "config/variables";
-
-@import "bootstrap-sprockets";
-@import "bootstrap";
+@import "config/variables";
 
 // External libraries
+@import "bootstrap-sprockets";
+@import "bootstrap";
 @import 'spectre.css';
 
-// CSS
-// @import "layout/index";
-// @import "components/index";
-
-/* Importing components */
-@import url("layout/navbar.scss");
-@import url("layout/footer.scss");
-
-/* Importing layouts */
-@import url("layout/homepage.scss");
-@import url("layout/projects.scss");
+// Your CSS
+@import "layout/index";
 
 body {
   margin: 0;
