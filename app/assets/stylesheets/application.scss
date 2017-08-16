@@ -1,5 +1,5 @@
 // Graphical variables
-// @import "config/variables";
+@import "config/variables.scss";
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -8,12 +8,12 @@
 @import 'spectre.css';
 
 // CSS
-// @import "layout/index";
+@import "layout/index";
 // @import "components/index";
 
 /* Importing components */
-@import url("layout/navbar.scss");
-@import url("layout/footer.scss");
+@import "layout/navbar.scss";
+@import "layout/footer.scss";
 
 /* Importing layouts */
 @import url("layout/homepage.scss");
