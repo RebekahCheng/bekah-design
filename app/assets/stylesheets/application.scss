@@ -15,27 +15,4 @@
 @import "components/index";
 @import "pages/index";
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: "adobe-garamond-pro", "Georgia", "Cambria", "Times New Roman", "Times", "serif";
-  font-size: 18px;
-}
 
-.site {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-}
-
-.content {
-  flex: 1;
-}
-
-#id {
-  font-family: "adobe-garamond-pro";
-}
-
-#logo-heart {
-  color: #D23333;
-}
